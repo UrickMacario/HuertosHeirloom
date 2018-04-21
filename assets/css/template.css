@@ -1,0 +1,704 @@
+@import url("fonts.css");
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    padding-top: 158px;
+    color: #333333;
+}
+
+.contenedor {
+    width: 1440px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+#Menu {
+    background: #fafafa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    z-index: 9;
+}
+
+.Menu--logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Menu--nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Menu .contenedor {
+    position: relative;
+    width: 1351px;
+    line-height: 68px;
+}
+
+.Menu--contacto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #f88239;
+    display: block;
+    bottom: 0;
+    width: 109px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Menu--logo img {
+    display: block;
+}
+
+.Menu--nav--link {
+    font-size: 18px;
+    padding: 0 1px 0 31px;
+    position: relative;
+}
+
+.Menu--nav--link::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background: #306337;
+    height: 5px;
+    width: 5px;
+    position: relative;
+    left: -14px;
+    border-radius: 100%;
+}
+
+.Home--Cabecera--textoGrande {
+    font-size: 33px;
+    letter-spacing: 0.8px;
+    line-height: 50px;
+}
+
+strong {
+    font-weight: 300;
+    color: #306337;
+}
+
+.Home--Cabecera .contenedor {
+    padding-left: 98px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Home--Cabecera--textoChico {
+    font-size: 22px;
+    padding-top: 32px;
+    line-height: 43px;
+    padding-bottom: 66px;
+}
+
+.boton {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #306337;
+    color: #306337;
+    text-align: center;
+    padding: 0 16px;
+    font-size: 20px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #306337;
+    color: white;
+}
+
+.Home--Cabecera .contenedor:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    height: 2px;
+    background-color: #306337;
+    width: 50%;
+}
+
+.Home--QueEs .contenedor {
+    /* background-repeat: no-repeat; */
+    /* background-position: left center; */
+    /* background-size: contain; */
+    /* padding-left: 584px; */
+}
+
+.Home--QueEs {
+    padding-top: 128px;
+    overflow: hidden;
+}
+
+.Home--QueEs--left {
+    text-align: center;
+    width: 559px;
+    float: left;
+}
+
+.Home--QueEs--right {
+    padding-left: 559px;
+}
+
+.Home--QueEs--title {
+    padding-top: 2px;
+}
+
+.Home--QueEs--texto {
+    padding-top: 43px;
+}
+
+.Home--Filosofia--slider {
+    width: 1344px;
+    margin: 0 auto;
+    max-width: 95%;
+    position: relative;
+    z-index: 2;
+}
+
+.Home--Filosofia {
+    padding-top: 74px;
+}
+
+.custom.tparrows {
+    background: url('../images/flechas.png') !important;
+    height: 70px !important;
+    width: 47px !important;
+}
+
+.tp-rightarrow.tparrows.custom {
+    background-position: right center !important;
+}
+
+.custom.tparrows:before {
+    opacity: 0 !important;
+}
+
+.Home--Filosofia--title--fondo {
+    background-image: url('../images/fondo_verde.jpg');
+    position: relative;
+    top: -208px;
+    z-index: 1;
+    padding-top: 290px;
+    color: white;
+    padding-bottom: 90px;
+}
+
+.Home--Filosofia--title, .Home--Filosofia--texto {
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1222px;
+    max-width: 100%;
+}
+
+.Home--Filosofia--title {
+    font-size: 33px;
+}
+
+.Home--Filosofia--texto {
+    padding-top: 27px;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.Home--Historia {
+    margin-top: -151px;
+    overflow: hidden;
+}
+
+.Home--Historia--left {
+    /* float: left; */
+    width: 499px;
+    /* margin: auto; */
+    flex: auto;
+}
+
+.Home--Historia--right {
+    padding-left: 75px;
+    flex: auto;
+    /* margin: auto; */
+    max-width: 674px;
+}
+
+.Huertos--texto {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.Home--Historia--texto {
+    padding-top: 24px;
+}
+
+.Huertos--texto > p {
+    padding-bottom: 44px;
+}
+
+.Huertos--title {
+    font-size: 33px;
+    color: #306337;
+}
+
+.Equipo .contenedor {
+    width: 1346px;
+    padding-left: 32px;
+}
+
+.Equipo {
+    padding-top: 56px;
+}
+
+.Equipo--miembro--nombre {
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 26px;
+}
+
+.Equipo--miembro--puesto {
+    font-size: 26px;
+    padding-top: 15px;
+}
+
+.Equipo--miembro--texto {
+    padding-top: 54px;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.Equipo--miembro--right {flex: auto;padding-left: 20px;}
+
+.Equipo--miembro--left {
+    /* float: left; */
+    width: 680px;
+    flex: auto;
+}
+
+.Equipo--botones {
+    padding-top: 54px;
+}
+
+.Equipo--boton {
+    margin-right: 55px;
+    color: #fd853a;
+    border-color: #fd853a;
+}
+
+.Equipo--boton:hover {
+    background: #fd853a;
+}
+
+.Equipo--miembro {
+    padding-bottom: 50px;
+    overflow: hidden;
+    display: flex !important;
+    display: -webkit-flex !important;
+    align-items: center;
+}
+
+.Equipo--miembro--right img {
+    margin: 0 auto;
+    display: block;
+    margin-right: 0;
+}
+
+.slick-slider > .slick-arrow {
+    display: none !important;
+}
+
+.Clientes {
+    padding-top: 32px;
+    margin: 0 auto;
+    width: 1285px;
+    max-width: 100%;
+}
+
+.Clientes--titulo {
+    padding-bottom: 45px;
+}
+
+.Clientes--slide {
+    text-align: center;
+}
+
+.Clientes--slide img {
+    display: inline-block !important;
+    max-width: 90%;
+}
+
+.BlogBanner {
+    text-align: center;
+    color: white;
+    font-size: 160px;
+    margin-top: 84px;
+    padding: 124px 0;
+    line-height: 132px;
+    padding-bottom: 10%;
+    min-height: 520px;
+    background-size: cover;
+}
+
+.Newsletter {
+    background-image: url('../images/fondo_verde.jpg');
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.Newsletter--title {
+    font-size: 33px;
+}
+
+.Newsletter--texto {
+    font-size: 26px;
+    padding-top: 28px;
+}
+
+.Footer--texto {
+    text-align: center;
+    font-size: 57px;
+    padding: 123px 0;
+    line-height: 93px;
+    color: #306337;
+}
+
+.Footer .contenedor {
+    border-top: 2px solid #306337;
+    position: relative;
+    padding-bottom: 47px;
+}
+
+.Footer--redes {
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+.Footer {
+    max-width: 99%;
+    margin: 0 auto;
+}
+
+.Red--single {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 48px;
+}
+
+.Footer--info {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    font-size: 20px;
+    padding-right: 55px;
+    padding-top: 47px;
+    color: #306337;
+}
+
+.Footer--info--link {
+    text-decoration: underline;
+}
+
+.Huerto--titular {
+    font-size: 57px;
+    color: #ff842c;
+}
+
+.Huerto .contenedor {
+    width: 1277px;
+}
+
+.Huerto--contenido {
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.Huerto--contenido p {
+    margin-bottom: 60px;
+}
+
+.cajaVerde {
+    position: relative;
+    top: -120px;
+    background-image: url('../images/fondo_verde.jpg');
+    margin: 0 auto;
+    width: 1131px;
+    max-width: 95%;
+    padding: 61px 73px;
+    color: white;
+    /* margin-bottom: -146px; */
+}
+
+.Huerto--contenido .rev_slider {
+}
+
+.Huerto--Links--title {
+    text-align: center;
+    font-size: 57px;
+    color: #306337;
+}
+
+.Huerto--Links--contenedor {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Huerto--Links--loop {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 52px 0;
+    width: 29%;
+    padding-bottom: 29%;
+    height: 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Huerto--Links--loop--texto {
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    opacity: 0;
+    transition: 1s opacity ease;
+    z-index: 1;
+}
+
+.Huerto--Links--loop:hover .Huerto--Links--loop--texto {
+    opacity: 1;
+}
+
+.Huerto--Links--loop {
+}
+
+.Huerto--Links--fondo {
+    background: #306337;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0;
+}
+
+.Huerto--Links--loop:hover .Huerto--Links--fondo {
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+}
+
+.Newsletter--caja {
+    width: 635px;
+    margin: 0 auto;
+    max-width: 95%;
+    margin-top: 39px;
+    border: 2px solid white;
+    position: relative;
+    text-align: left;
+}
+
+.Newsletter--caja--mail {
+    line-height: 62px;
+    border-color: transparent;
+    width: 70%;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background: none;
+    font-weight: 300;
+}
+
+.Newsletter--caja--boton {
+    border-radius: 0;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    color: #306337;
+    font-size: 29px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.Newsletter--caja--mail::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+}
+
+.Newsletter--caja--mail::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+
+.Newsletter--caja--mail:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+
+.Newsletter--caja--mail:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+
+.mc4wp-alert.mc4wp-error {
+    color: red;
+    background: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+.si800 {
+    display: none;
+}
+
+.Equipo--miembro--fotoResponsiva {
+    display: none !important;
+}
+
+.MenuFlat--abrirMenu {
+    display: none;
+}
+
+#MenuFlat {
+    display: none;
+}
+
+.MenuFlat--abrirMenu {
+    width: 65px;
+    margin: 0 auto;
+    height: 65px;
+    cursor: pointer;
+    margin-right: 0;
+    z-index: 6;
+    background: #ff842c;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.MenuFlat--abrirMenu > span {
+    position: absolute;
+    left: 11px;
+    height: 5px;
+    width: 44px;
+    transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    background: white;
+}
+
+.barra_1 {
+    top: 17px;
+}
+
+.barra_2 {
+    top: 32px;
+}
+
+.barra_3 {
+    top: 47px;
+}
+
+.movilAbierto .barra_1 {
+    transform: rotate(45deg) !important;
+    -moz-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    -o-transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important;
+    top: 31px;
+}
+
+.movilAbierto .barra_2 {
+    opacity: 0;
+}
+
+.movilAbierto .barra_3 {
+    transform: rotate(-45deg) !important;
+    -moz-transform: rotate(-45deg) !important;
+    -ms-transform: rotate(-45deg) !important;
+    -o-transform: rotate(-45deg) !important;
+    -webkit-transform: rotate(-45deg) !important;
+    top: 31px;
+}
+
+#MenuFlat {
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #ff842c;
+    position: fixed;
+    z-index: 7;
+    padding-top: 88px;
+    text-align: center;
+    font-size: 30px;
+    transition: top 1s ease;
+}
+
+.MenuFlat--ul {
+    list-style: none;
+}
+
+.MenuFlat--ul--link {
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.movilAbierto #MenuFlat {
+    top: 0;
+}
+
+.MenuFlat--ul--link.link_actual, .MenuFlat--ul--link:hover {
+    color: black;
+}
+
+#MenuFlat .Red--single {
+    margin: 0 10px;
+}
+
+.MenuFlat--contacto {
+    height: 51px;
+    background-position: center;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.Huerto--contenido .cajaVerde {
+    margin-bottom: -100px;
+}
+
+.Equipo--miembro:focus {
+    outline: none !important;
+}
+
+.Red--single img {
+    height: 40px;
+    width: auto !important;
+}
+
+.Home--Historia .contenedor {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.Home--Historia--left img {
+    width: 100%;
+}

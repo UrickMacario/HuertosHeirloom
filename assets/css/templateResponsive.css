@@ -1,0 +1,371 @@
+@media screen and (max-width: 1440px) {
+    /*1440 to 1221*/
+    .Menu--nav--link {
+        /* font-size: 20px; */
+    }
+
+    .Huerto--titular {
+        font-size: 45px;
+    }
+
+    /*1440 to 1221*/
+}
+
+@media screen and (max-width: 1220px) {
+    /*1220 to 1025*/
+    .Menu--nav--link {
+        font-size: 15px;
+    }
+
+    .Home--Cabecera--textoGrande {
+        font-size: 30px;
+    }
+
+    .Home--Cabecera--textoChico {
+        font-size: 20px;
+    }
+
+    .BlogBanner {
+        font-size: 150px;
+    }
+
+    .Footer--info {
+        font-size: 20px;
+    }
+
+    /*1220 to 1025*/
+}
+
+@media screen and (max-width: 1024px) {
+    /*1024 to 801*/
+    .Equipo--miembro--fotoResponsiva {
+        display: block !important;
+        max-height: 200px;
+        float: left;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    .Home--Historia .contenedor {
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+    }
+
+    .MenuFlat--abrirMenu, #MenuFlat {
+        display: block;
+    }
+
+    .Menu--contacto {
+        display: none;
+    }
+
+    #Menu {
+        padding: 10px 0;
+    }
+
+    .Equipo--miembro--texto {
+        padding-top: 24px;
+    }
+
+    .Menu--nav {
+        display: none;
+    }
+
+    .Home--Cabecera--textoGrande {
+        text-align: center;
+        line-height: inherit;
+    }
+
+    .Home--Cabecera--textoChico {
+        text-align: center;
+    }
+
+    .Home--Cabecera {
+        text-align: center;
+    }
+
+    .Home--Cabecera .contenedor {
+        padding-left: 0;
+        background-image: none !important;
+    }
+
+    .Home--Cabecera .contenedor:after {
+        display: none;
+    }
+
+    .Home--QueEs--left {
+        width: 30%;
+    }
+
+    .Home--QueEs--right {
+        padding-left: 30%;
+    }
+
+    .Huertos--texto {
+        font-size: 18px;
+    }
+
+    .Huertos--title {
+        font-size: 25px;
+    }
+
+    .Home--Filosofia--title--fondo {
+        padding-top: 256px;
+    }
+
+    .Home--Filosofia--title {
+        font-size: 25px;
+    }
+
+    .Home--Filosofia--texto {
+        font-size: 18px;
+    }
+
+    .Home--Historia--left {
+        /* width: 30%; */
+    }
+
+    .Home--Historia--right {
+        /* padding-left: 32%; */
+    }
+
+    .Equipo--miembro--right {
+        padding-left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 144px;
+        display: none;
+        flex: none;
+    }
+
+    .Equipo--miembro {
+        position: relative;
+        display: block !i;
+    }
+
+    .Equipo--miembro--left {
+        width: initial;
+        float: none;
+        flex: none;
+    }
+
+    .Equipo--miembro--puesto {
+        padding-right: 129px;
+    }
+
+    .Huerto--titular {
+        font-size: 25px;
+    }
+
+    .Huerto--contenido {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .Huerto--contenido p {
+        margin-bottom: 30px;
+    }
+
+    .Footer--info {
+        display: block;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .Footer--redes {
+        position: static;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .Red--single {
+        margin: 0 20px;
+    }
+
+    /*1024 to 801*/
+}
+
+@media screen and (max-width: 800px) {
+    /*800 to 671*/
+    .Home--QueEs--left {
+        float: none;
+        width: 100%;
+    }
+
+    .Home--QueEs--right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .Home--QueEs--texto.Huertos--texto {
+        text-align: justify;
+    }
+
+    .Home--Filosofia--title {
+        text-align: center;
+    }
+
+    .Home--Filosofia--texto {
+        text-align: justify;
+        line-height: 32px;
+    }
+
+    .Huertos--texto {
+        line-height: 32px;
+    }
+
+    .Home--Filosofia--title--fondo {
+        padding-bottom: 50px;
+    }
+
+    .Equipo--miembro--texto {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .Equipo--miembro--puesto {
+        font-size: 18px;
+    }
+
+    .Equipo--miembro--nombre {
+        font-size: 21px;
+    }
+
+    .boton {
+        font-size: 17px;
+        line-height: 38px;
+    }
+
+    .BlogBanner {
+        font-size: 80px;
+        line-height: 64px;
+        min-height: 0;
+        padding: 65px 10px;
+    }
+
+    .Newsletter--title {
+        font-size: 25px;
+    }
+
+    .Newsletter--texto {
+        font-size: 15px;
+    }
+
+    .Footer--texto {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 44px;
+    }
+
+    .no800 {
+        display: none;
+    }
+
+    .si800 {
+        display: inherit;
+    }
+
+    /*800 to 671*/
+}
+
+@media screen and (max-width: 670px) {
+    /*670 to 480*/
+    .Home--Historia--left {
+        display: none;
+    }
+
+    .Home--Historia--right {
+        padding-left: 0;
+        text-align: justify;
+    }
+
+    .cajaVerde {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        margin: 10px 0;
+        margin-bottom: 0px !important;
+    }
+
+    .Huerto--Links--title {
+        font-size: 28px;
+    }
+
+    .Huerto--Links--loop {
+        margin: 10px 0;
+        display: block;
+        flex: none;
+        width: 100%;
+    }
+
+    .Huerto--Links--contenedor {
+        display: block;
+    }
+
+    .Footer--texto {
+        padding-top: 44px;
+    }
+
+    /*670 to 480*/
+}
+
+@media screen and (max-width: 479px) {
+    /*479 to 320*/
+    .boton {
+        font-size: 14px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .Home--Filosofia--title--fondo {
+        padding-top: 25px;
+        position: static;
+    }
+
+    .Home--Filosofia--slider {
+        position: static;
+    }
+
+    .Home--Historia {
+        margin-top: 50px;
+    }
+
+    .Equipo--miembro--puesto {
+        padding-right: 0;
+    }
+
+    .Equipo--miembro--right {
+        display: none;
+    }
+
+    .Equipo--miembro--texto {
+    }
+
+    .BlogBanner {
+        font-size: 50px;
+        line-height: initial;
+    }
+
+    .Newsletter--caja--mail {
+        width: 100%;
+    }
+
+    .Newsletter--caja--boton {
+        position: static;
+        width: 100%;
+        line-height: 60px;
+    }
+
+    /*479 to 320*/
+}
+
+@media screen and (max-width: 319px) {
+    /*329 to ---*/
+    * {
+        display: none;
+    }
+
+    /*329 to ---*/
+}
