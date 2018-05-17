@@ -1,14 +1,7 @@
 <!doctype html>
 <html lang="es">
 <!--
- __    __  ____  _____  ___   __ __  ____  ___ ___   ____  _____
-|  T__T  Tl    j/ ___/ /   \ |  T  Tl    j|   T   T /    T/ ___/
-|  |  |  | |  T(   \_ Y     Y|  |  | |  T | _   _ |Y  o  (   \_
-|  |  |  | |  | \__  T|  Q  ||  |  | |  | |  \_/  ||     |\__  T
-l  `  '  ! |  | /  \ ||     ||  :  | |  | |   |   ||  _  |/  \ |
- \      /  j  l \    |l     |l     | j  l |   |   ||  |  |\    |
-  \_/\_/  |____j \___j \__,_j \__,_j|____jl___j___jl__j__j \___j
- Desarrollado por: wisquimas@gmail.com
+ Desarrollado por: Macario || Casa Creativa urick@casamacario.mx
 -->
 <head>
     <meta charset="utf-8"/>
